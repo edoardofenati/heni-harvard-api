@@ -1,0 +1,8 @@
+node_modules
+coverage
+.idea
+src/**/*.js
+src/**/*.js.map
+**/.DS_Store
+*.js
+*.js.map

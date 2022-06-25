@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2019",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "skipLibCheck": true
+    },
+    "exclude": ["./node_modules"],
+    "include": ["server.ts", "./docs", "./sam","./src/**/*.ts", "./__tests__/**/*.ts", "./setupTests.ts", ".aws-sam/build"],
+    "types": ["node", "jest", "jest-openapi"]
+}
